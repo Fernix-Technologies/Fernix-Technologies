@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from "react";
-const WHATSAPP_NUMBER = import.meta.env.WHATSAPP_NUMBER;
+const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER;
 
 // ── Responsive hook ───────────────────────────────────────────────────────────
 function useIsMobile() {
@@ -290,7 +290,7 @@ function Hero() {
 
         {/* Stats */}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(120px,1fr))", gap: "1rem", marginTop: "3.5rem", maxWidth: 600, margin: "3.5rem auto 0" }}>
-          {[{ v: 3, s: "+", l: "Projects" }, { v: 3, s: "+", l: "Clients" }, { v: 2.5, s: "+", l: "Years Exp" }, { v: 100, s: "%", l: "Satisfaction" }].map(s => (
+          {[ { v: 5, s: "+", l: "Years Exp" }, { v: 100, s: "%", l: "Satisfaction" }].map(s => (
             <div key={s.l} style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: 12, padding: "0.9rem 0.5rem", textAlign: "center" }}>
               <div style={{ fontSize: 24, fontWeight: 800, background: "linear-gradient(135deg,#63b3ed,#8b5cf6)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
                 <Counter end={s.v} suffix={s.s} />
