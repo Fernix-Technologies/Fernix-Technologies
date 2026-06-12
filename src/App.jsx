@@ -270,7 +270,7 @@ function Hero() {
         <div style={{ fontSize: "clamp(0.95rem, 2vw, 1.15rem)", color: "#94a3b8", marginBottom: "2rem", lineHeight: 1.7, minHeight: 52 }}>
           We build{" "}
           <TypingText texts={["Custom Applications", "AI Automations", "Modern Websites", "AI Video Content", "Business Solutions"]} />
-          <br />that scale with your ambitions
+          <br />A young team of experienced professionals delivering innovative, high-quality technology solutions with speed, reliability, and a customer-first approach.
         </div>
 
         <div style={{ display: "flex", gap: "0.8rem", justifyContent: "center", flexWrap: "wrap" }}>
